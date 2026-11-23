@@ -4,7 +4,7 @@ package com.example.kotlinimc
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.exemplo.myapp.databinding.ActivityMenuBinding
+import com.example.kotlinimc.databinding.ActivityMenuBinding
 
 class MenuActivity : AppCompatActivity() {
 

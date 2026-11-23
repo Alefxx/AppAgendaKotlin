@@ -9,7 +9,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doAfterTextChanged
-import com.exemplo.myapp.databinding.ActivityAgendaTelBinding
+import com.example.kotlinimc.databinding.ActivityAgendaTelBinding
 
 class AgendaTelActivity : AppCompatActivity() {
 

@@ -5,7 +5,7 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.exemplo.myapp.databinding.ActivityTarefasBinding
+import com.example.kotlinimc.databinding.ActivityTarefasBinding
 
 class TarefasActivity : AppCompatActivity() {
 

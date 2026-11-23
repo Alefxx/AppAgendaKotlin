@@ -5,7 +5,7 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.exemplo.myapp.databinding.ActivityDesejosBinding
+import com.example.kotlinimc.databinding.ActivityDesejosBinding
 
 class DesejosActivity : AppCompatActivity() {
 

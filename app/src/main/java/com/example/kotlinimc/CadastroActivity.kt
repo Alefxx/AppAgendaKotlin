@@ -3,7 +3,7 @@ package com.example.kotlinimc
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.exemplo.myapp.databinding.ActivityCadastroBinding
+import com.example.kotlinimc.databinding.ActivityCadastroBinding
 
 class CadastroActivity : AppCompatActivity() {
 
