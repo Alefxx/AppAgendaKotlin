@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza_fundo"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtBoasVindas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Olá!"
+        android:textColor="@color/azul_primario"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTarefas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/azul_primario"
+        android:text="@string/menu_tarefas"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/azul_primario"
+        android:text="@string/menu_agenda"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnDesejos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/azul_primario"
+        android:text="@string/menu_desejos"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/vermelho_sair"
+        android:text="@string/menu_sair"
+        android:textColor="@color/white" />
+
+</LinearLayout>

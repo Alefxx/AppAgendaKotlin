@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza_fundo"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtNomeDesejo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nome_desejo" />
+
+    <!-- Preço opcional (aceita casa decimal) -->
+    <EditText
+        android:id="@+id/edtPrecoDesejo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="@string/hint_preco_desejo"
+        android:inputType="numberDecimal" />
+
+    <!-- Spinner já puxa "Alta, Média, Baixa" do strings.xml -->
+    <Spinner
+        android:id="@+id/spinnerPrioridade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/prioridades_desejo" />
+
+    <Button
+        android:id="@+id/btnSalvarDesejo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/verde_ok"
+        android:text="@string/btn_salvar_desejo"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Toque em um item para excluir"
+        android:textSize="12sp" />
+
+    <ListView
+        android:id="@+id/listViewDesejos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

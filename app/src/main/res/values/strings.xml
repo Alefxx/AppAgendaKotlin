@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Myapp</string>
+
+    <!-- Login e Cadastro -->
+    <string name="titulo_login">Bem-vindo ao Myapp</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_nome">Nome completo</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_ir_cadastro">Criar nova conta</string>
+    <string name="btn_cadastrar">Salvar Cadastro</string>
+
+    <!-- Menu Principal -->
+    <string name="menu_tarefas">Lista de Tarefas</string>
+    <string name="menu_agenda">Agenda Telefônica</string>
+    <string name="menu_desejos">Lista de Desejos</string>
+    <string name="menu_sair">Sair (Login)</string>
+
+    <!-- Tarefas -->
+    <string name="hint_tarefa">Descrição da tarefa</string>
+    <string name="btn_add_tarefa">Adicionar Tarefa</string>
+    <string-array name="prazos_tarefa">
+        <item>Hoje</item>
+        <item>Amanhã</item>
+        <item>Depois</item>
+    </string-array>
+
+    <!-- AgendaTel -->
+    <string name="hint_nome_contato">Nome do contato</string>
+    <string name="hint_numero_contato">Telefone / Celular</string>
+    <string name="hint_pesquisar">Pesquisar nome ou número...</string>
+    <string name="btn_salvar_contato">Salvar Contato</string>
+
+    <!-- Lista de Desejos -->
+    <string name="hint_nome_desejo">O que você deseja?</string>
+    <string name="hint_preco_desejo">Preço R$ (Opcional)</string>
+    <string name="btn_salvar_desejo">Adicionar Desejo</string>
+    <string-array name="prioridades_desejo">
+        <item>Alta</item>
+        <item>Média</item>
+        <item>Baixa</item>
+    </string-array>
+</resources>

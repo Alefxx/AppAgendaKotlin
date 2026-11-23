@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza_fundo"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Texto e Barra de Progresso em tempo real -->
+    <TextView
+        android:id="@+id/txtProgresso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Concluído: 0% (0/0)"
+        android:textColor="@color/azul_primario"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp"
+        android:max="100"
+        android:progress="0" />
+
+    <!-- Formulário de nova tarefa -->
+    <EditText
+        android:id="@+id/edtTarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_tarefa" />
+
+    <!-- Spinner já puxa "Hoje, Amanhã, Depois" do strings.xml -->
+    <Spinner
+        android:id="@+id/spinnerPrazo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/prazos_tarefa" />
+
+    <Button
+        android:id="@+id/btnAddTarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/azul_primario"
+        android:text="@string/btn_add_tarefa"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Toque para marcar/desmarcar | Segure para excluir"
+        android:textSize="12sp" />
+
+    <ListView
+        android:id="@+id/listViewTarefas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
